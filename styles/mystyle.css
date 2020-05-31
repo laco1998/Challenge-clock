@@ -26,7 +26,7 @@ body{
 }
 
 #time {
-	font-size: 90px;
+	font-size: 6vw;
 	font-weight: bold;
 }
 
@@ -84,9 +84,9 @@ body{
 
 @keyframes fly {
 	0% {top: 0px; left: 0px;}
-	13% {top: 0px; left: 15vw;}
+	13% {top: 0px; left: 19vw;}
 	26%	{transform: rotate(-90deg);}
-	39% {top: -25px; left: 15vw;}
+	39% {top: -25px; left: 19vw;}
 	52% {transform: rotate(-180deg);}
 	65% {top: -25px; left: 0px;}
 	78% {transform: rotate(-270deg);}
@@ -111,7 +111,7 @@ body{
 }
 
 #date {
-	font-size: 25px;
+	font-size: 2vw;
 	display: flex;
 	justify-content: center;
 	font-weight: bold;
