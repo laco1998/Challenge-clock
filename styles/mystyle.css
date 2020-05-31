@@ -84,9 +84,9 @@ body{
 
 @keyframes fly {
 	0% {top: 0px; left: 0px;}
-	13% {top: 0px; left: 250px;}
+	13% {top: 0px; left: 15vw;}
 	26%	{transform: rotate(-90deg);}
-	39% {top: -25px; left: 250px;}
+	39% {top: -25px; left: 15vw;}
 	52% {transform: rotate(-180deg);}
 	65% {top: -25px; left: 0px;}
 	78% {transform: rotate(-270deg);}
