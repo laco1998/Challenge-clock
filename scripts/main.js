@@ -27,8 +27,12 @@ document.getElementById('background').onclick = function picture() {
 function background() {
 	var time = new Date();
 	var hours = time.getHours(); 
-	if (hours > 8 && hours < 22) {
-		document.body.style.backgroundColor = '#87CEFA';
+	if (hours >= 8 && hours < 12) {
+		document.body.style.backgroundColor = '#FFFF99';
+	} else if (hours >= 12 && hours < 18) {
+		document.body.style.backgroundColor = '#99CCFF';
+	} else if (hours >= 18 && hours < 22) {
+		document.body.style.backgroundColor = '#FFB266';
 	} else {
 		document.body.style.backgroundColor = '#000000';
 	}
